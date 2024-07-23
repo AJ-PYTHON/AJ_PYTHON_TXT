@@ -1,6 +1,6 @@
-# txt uploader
+# TXT UPLOADER
 
-# Made By Devansh
+# Made By AJ PYTHON
 
 
 ## DEPLOY TO HEROKU
