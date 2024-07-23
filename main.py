@@ -56,17 +56,17 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_15",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_15",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="🪄 Updates Channel",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_INFINITY",
             ),
             
         ],
@@ -80,17 +80,17 @@ Busy = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="👨🏻‍💻 Devloper",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_15",
             ),
             InlineKeyboardButton(
                 text="❣️ GITHUB",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_15",
             ),
         ],
         [
             InlineKeyboardButton(
                 text="Join to Check My Status ",
-                url="https://t.me/EX_DOLPHIN",
+                url="https://t.me/AJ_PYTHON_15",
             ),
             
         ],
@@ -113,12 +113,12 @@ async def send_logs(bot: Client, m: Message):
 
 # List of image URLs
 image_urls = [
-    "https://graph.org/file/9dbe3901f43b11e98e6f0.jpg",
-    "https://graph.org/file/c5ec0a02be408b354d3fc.jpg",
-    "https://graph.org/file/c186818a566c501f14abf.jpg",
-    "https://graph.org/file/850ef256ede1370257b5d.jpg",
-    "https://graph.org/file/40700542e58889b5c42fe.jpg",
-    "https://graph.org/file/94a7875bb51006e7bd528.jpg",
+    "https://graph.org/file/a32e03bd85fa2511b12c9.jpg",
+    "https://graph.org/file/ee0ab99682b336af9a1f3.jpg",
+    "https://graph.org/file/37ec2bfe6eb404ee3bc08.jpg",
+    "https://graph.org/file/38c8abee2d89021c70a12.jpg",
+    "https://graph.org/file/10afd917ebc1459dc7602.jpg",
+    "https://graph.org/file/8de06eb27ac9ff267f4c7.jpg",
     # Add more image URLs as needed
 ]
 
@@ -131,7 +131,7 @@ async def start_command(bot: Client, message: Message):
     
     
     # Caption for the image
-    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @EX_DOLPHIN **\n"
+    caption = f"**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫  👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n➠ Can Extract Videos & Pdf Form Your Text File and Upload to Telegram\n\n➠ 𝐔𝐬𝐞 /drm 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞  \n\n➠𝐌𝐚𝐝𝐞 𝐁𝐲: @AJ_PYTHON_15 **\n"
     
     # Send the image with the caption
     await bot.send_photo(
@@ -145,7 +145,7 @@ async def start_command(bot: Client, message: Message):
 async def run_bot(bot: Client, m: Message):
     user_id = m.from_user.id
     if user_id not in auth_users:
-        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONATCH MY DEV : @EX_DOLPHIN  **")
+        await m.reply_text("**HEY BUDDY THIS IS ONLY FOR MY ADMINS TO USE THIS CONTACT MY AJ : @AJ_PYTHON_15  **")
     else:
         editable = await m.reply_text(" Send Your HTML file\n")
         input: Message = await bot.listen(editable.chat.id)
@@ -196,7 +196,7 @@ async def myplan_command_handler(bot, message):
                 today = datetime.datetime.today()
                 if today > datetime.datetime.strptime(expiration_date, "%d-%m-%Y"):
                     plan = "EXPIRED "
-                    response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date} \n\n 🫰🏼 ACTIVATE YOUR PLAN NOW ! \n⚡️ TO ACTIVATE MESSAGE : @ITS_NOT_ROMEO :D **"
+                    response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date} \n\n 🫰🏼 ACTIVATE YOUR PLAN NOW ! \n⚡️ TO ACTIVATE MESSAGE : @AJ_PYTHON_15 :D **"
                 else:
                     plan = "ALIVE!"  
                     response_text = f"**✨ User ID: {user_id}\n📊 PLAN STAT : {plan}\n🔰 Activated on : {subscription_start}\n🧨 Expiration Date: {expiration_date}**"
@@ -223,12 +223,12 @@ async def restart_handler(_, m):
          failed_links.clear()
          processing_request = False  # Reset the processing flag
          #await m.reply_text("**Note This Is BETA Stage May have Bugs  **")
-         await m.reply_text("🚦**STOPPED**🚦", True)
+         await m.reply_text("🔴**STOPPED**🔴", True)
          os.execl(sys.executable, sys.executable, *sys.argv)
         else:
          processing_request = False  # Reset the processing flag
          #await m.reply_text("**Note This Is BETA Stage May have Bugs  **")
-         await m.reply_text("🚦**STOPPED**🚦", True)
+         await m.reply_text("🔴**STOPPED**🔴", True)
          os.execl(sys.executable, sys.executable, *sys.argv)
    
 
@@ -236,7 +236,7 @@ async def restart_handler(_, m):
 async def restart_handler(_, m):
    
      processing_request = False  # Reset the processing flag
-     await m.reply_text("🤖**Restarting Bot **🤖", True)
+     await m.reply_text("👾**Restarting Bot **👾", True)
      os.execl(sys.executable, sys.executable, *sys.argv)
     
 
@@ -252,7 +252,7 @@ async def account_login(bot: Client, m: Message):
             return
     else:
         
-        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @EX_DOLPHIN **")
+        editable = await m.reply_text(f"**➠ 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐀 𝐏𝐫𝐨𝐩𝐞𝐫 𝐖𝐚𝐲 \n\n➠ TXT FORMAT : LINK : URL \n➠ 𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲:  @AJ_PYTHON_15 **")
         input: Message = await bot.listen(editable.chat.id)
         editable = await editable.edit(f"**⚙️PROCESSING INPUT.......**")
 
@@ -297,7 +297,7 @@ async def account_login(bot: Client, m: Message):
                     pdfcount += 1 
                 else:
                     videocount += 1
-    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : @ITS_NOT_ROMEO**" )
+    await editable.edit(f"**Total links found are : {len(links)}\n┃\n┠ Total Video Count : {videocount}\n┠ Total Pdf Count: {pdfcount}  \n┠ Send From where you want to download initial is  : `1` \n┃\n┠ Send `stop` If don't want to Contine \n┖ Bot By : @AJ_PYTHON_15**" )
     input0: Message = await bot.listen(editable.chat.id)
     raw_text = input0.text
     await input0.delete(True)
@@ -322,11 +322,11 @@ async def account_login(bot: Client, m: Message):
     
 
 
-    await editable.edit("**Enter Batch Name or send d for grabbing from text filename.**")
+    await editable.edit("**Enter Batch Name or send a for grabbing from text filename.**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
-    if raw_text0 == 'd':
+    if raw_text0 == 'a':
         b_name = file_name
     else:
         b_name = raw_text0
@@ -340,17 +340,17 @@ async def account_login(bot: Client, m: Message):
     await input2.delete(True)
     
     
-    await editable.edit("**Enter Your Name or send `de` for use default**")
+    await editable.edit("**Enter Your Name or send `OBITO` for use default**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    if raw_text3 == 'de':
-        CR = "@ITS_NOT_ROMEO"
+    if raw_text3 == 'OBITO':
+        CR = "@AJ_PYTHON_15"
     else:
         CR = raw_text3
 
 
-    await editable.edit("**🖼 Thumbnail \n\n• Custom Thumbnail : Use @vtelegraphbot and send me link \n• If you don't want Send :  `no` **")  
+    await editable.edit("**🖼 Thumbnail \n\n• Custom Thumbnail : Send me link :- https://graph.org/file/84504a34a8c386fcb0a27.jpg \n• If you don't want Send :  `no` **")  
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -444,8 +444,8 @@ async def account_login(bot: Client, m: Message):
             #     cmd = f'yt-dlp -f "{ytf}+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv "{url}" -o "{name}.%(ext)s"'
 
             try:   
-                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'
-                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}**\n**━━━━━━━✦✗✦━━━━━━━**'                            
+                cc = f' **➭ Index » {str(count).zfill(3)} **\n**➭ Title »  {name1}.mkv**\n**➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name} **\n**➭ Quality » {raw_text2}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : 𝗔𝗝 𝗣𝗬𝗧𝗛𝗢𝗡 💀**\n**━━━━━━━✦✗✦━━━━━━━**'
+                cc1 = f'**➭ Index » {str(count).zfill(3)} **\n**➭ Title » {name1}.pdf** \n**➭ 𝐁𝐚𝐭𝐜𝐡 »  {b_name}**\n\n✨ **𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : 𝗔𝗝 𝗣𝗬𝗧𝗛𝗢𝗡 💀**\n**━━━━━━━✦✗✦━━━━━━━**'                            
                
                 if "drive" in url:
                     try:
@@ -462,7 +462,7 @@ async def account_login(bot: Client, m: Message):
                 elif ".pdf" in url:
                     try:
                         time.sleep(1)
-                        #prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Index » {str(count).zfill(3)} **\n**➭ File » ** `{name}`\n**➭ Link »** `{url}`\n\n✨ **Bot Made by Devansh**\n**━━━━━━━✦✗✦━━━━━━━**")
+                        #prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Index » {str(count).zfill(3)} **\n**➭ File » ** `{name}`\n**➭ Link »** `{url}`\n\n✨ **Bot Made by 𝗔𝗝 𝗣𝗬𝗧𝗛𝗢𝗡 💀**\n**━━━━━━━✦OBITO✦━━━━━━━**")
                         cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
                         os.system(download_cmd)
@@ -497,7 +497,7 @@ async def account_login(bot: Client, m: Message):
                         continue
 
                 else:
-                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** `{url}`\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @EX_DOLPHIN**\n**━━━━━━━✦✗✦━━━━━━━**")
+                    prog = await m.reply_text(f"📥 **Downloading **\n\n**➭ Count » {str(count).zfill(3)} **\n**➭ Video Name » ** `{name}`\n**➭ Quality** » `{raw_text2}`\n**➭ Video Url »** NONE OF YOUR BUSINESS\n**➭ Thumbnail »** `{input6.text}` \n\n✨ **Bot Made by @AJ_PYTHON_15**\n**━━━━━━━✦OBITO✦━━━━━━━**")
                     time.sleep(2)
                     res_file = await helper.drm_download_video(url,quality, name,key)
                     filename = res_file
@@ -528,8 +528,8 @@ async def account_login(bot: Client, m: Message):
      await error_file_send.delete()
      failed_links.clear()
      os.remove(f'failed_downloads.txt')
-    await m.reply_text("🔰Done🔰")
-    await m.reply_text("**✨Thanks for Choosing**")
+    await m.reply_text("⚜Done⚜")
+    await m.reply_text("**Thanks You By AIMERS✨**")
     processing_request = False  # Reset the processing flag  
 
 
