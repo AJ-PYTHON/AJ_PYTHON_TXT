@@ -32,7 +32,7 @@ import aiohttp
 bot = Client("bot",
              bot_token= "", 
              #bot_token= os.environ.get("BOT_TOKEN"),
-             api_id= ,
+             api_id= "",
              api_hash= "")
 auth_users = []
 #romeo  
