@@ -10,6 +10,8 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 OWNER = int(os.environ.get("OWNER", "7548265642" ))
 
+LOG = ,
+
 # UPDATE_GRP = , # bot sat group
 
 # auth_chats = []
