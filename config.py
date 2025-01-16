@@ -10,7 +10,7 @@ PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
 OWNER = int(os.environ.get("OWNER", "7548265642" ))
 
-LOG = ,
+LOG = "2441473161",
 
 # UPDATE_GRP = , # bot sat group
 
@@ -18,7 +18,7 @@ LOG = ,
 
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7444100249").split()):
+    for x in (os.environ.get("ADMINS", "7548265642").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
